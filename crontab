@@ -1,0 +1,3 @@
+# runs symbol_check.py once every 24hrs, after market close
+CRON_TZ=America/New_York
+1 * * * * root python3.7 /symbol_check.py >> /tmp/log.out

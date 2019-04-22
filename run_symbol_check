@@ -1,0 +1,2 @@
+#!/bin/sh
+python /symbol_check.py >> /tmp/symbol_check.out
